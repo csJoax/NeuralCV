@@ -1,12 +1,12 @@
 # NeuralCV
 
-English | [简体中文](./README_cn.md)
+[English](./README.md) | 简体中文
 
-Neural networks for computer vision with pytorch
+使用pytorch实现计算机视觉中的一些神经网络。
 
-## CV Tasks
+## 计算机视觉的任务
 
-### Image segmentation
+### 图像分割
 
 | Models                                         | Author              | Year | Github                                     |
 | ---------------------------------------------- | ------------------- | ---- | ------------------------------------------ |
@@ -24,7 +24,7 @@ Neural networks for computer vision with pytorch
 
 
 
-#### Reference:
+#### 参考：
 
 - https://github.com/pytorch/vision
 
