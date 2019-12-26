@@ -2,7 +2,7 @@
 import numpy as np
 from .unet_parts import *
 from base.models.ncv_model import NcvModel
-from base.logwriter import Logging as logging
+from base.ncvwriter import Logging as logging
 
 __all__ = ["UNet"]
 

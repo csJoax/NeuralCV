@@ -1,6 +1,6 @@
 import torch
 import torch.nn as nn
-from base.logwriter import Logging as logging
+from base.ncv_recorder import Logging as logging
 
 
 class NcvModel(nn.Module):
@@ -8,7 +8,7 @@ class NcvModel(nn.Module):
     NeuralCV model
     """
 
-    def __init__(self, name):
+    def __init__(self, name, nn_module=None):
         super(NcvModel, self).__init__()
         self.name = name
 
